@@ -13,3 +13,4 @@
   - [브리지 패턴](https://github.com/lcomment/effective-java-study/blob/master/01_객체_생성과_파괴/item1/bridgePattern.md)
 - ### [Item2: 생성자에 매개변수가 많다면 빌더를 고려하라.](https://github.com/lcomment/effective-java-study/tree/master/01_객체_생성과_파괴/item2)
 - ### [Item3: private 생성자나 열거 타입으로 싱글턴임을 보증하라.](https://github.com/lcomment/effective-java-study/tree/master/01_객체_생성과_파괴/item3)
+- ### [Item4: 인스턴스화를 막으려거든 private 생성자를 사용하자.](https://github.com/lcomment/effective-java-study/tree/master/01_객체_생성과_파괴/item4)
