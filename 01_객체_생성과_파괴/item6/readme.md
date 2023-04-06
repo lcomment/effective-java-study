@@ -70,6 +70,10 @@ public class RomanNumerals {
 
 <br>
 
+> ### [정적 메서드 vs 객체 재사용 vs 지연 초기화](https://github.com/lcomment/effective-java-study/tree/master/00_실습코드/src/item6/romanTest)
+
+<br>
+
 ## III. Map 인터페이스 keySet 메서드
 
 > 33P : keySet을 호출할 때마다 새로운 Set 인스턴스가 만들어지리라고 순진하게 생각할 수도 있지만, 사실은 `매번 같은 Set 인스턴스`를 반환할지도 모른다
@@ -106,6 +110,8 @@ public class MapTest {
 ```
 
 같은 값이 나왔다. 따라서 map의 keySet 메서드로 초기화 된 set1과 set2는 같은 공간을 `공유`한다.
+
+> ### [keySet 관련 테스트 실습코드](https://github.com/lcomment/effective-java-study/blob/master/00_실습코드/src/item6/mapTest/MapTest.java)
 
 <br>
 
@@ -148,3 +154,5 @@ public class AutoBoxingTest {
 primitive type: 761
 reference type: 3602
 ```
+
+> ### [오토박싱 테스트 실습코드](https://github.com/lcomment/effective-java-study/blob/master/00_실습코드/src/item6/autoBoxing/AutoBoxingTest.java)
